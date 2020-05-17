@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "164386496234",
+    "firebase_url": "https://cheatquizonline.firebaseio.com",
+    "project_id": "cheatquizonline",
+    "storage_bucket": "cheatquizonline.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164386496234:android:f74f7c6005d91ef7838193",
+        "android_client_info": {
+          "package_name": "com.example.ocr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164386496234-dvhlio1i5onhujtpj57mifim2sgqr8bo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwpK6YPHDgn_QOUBTRILAFyUI8ftop7ic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164386496234-dvhlio1i5onhujtpj57mifim2sgqr8bo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

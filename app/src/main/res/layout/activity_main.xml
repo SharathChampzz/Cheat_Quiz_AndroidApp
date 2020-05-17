@@ -4,35 +4,79 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#0E87BD"
     tools:context=".MainActivity">
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/select_image"
         android:id="@+id/select"
-        />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#FFFFFF"
+        android:text="@string/select_image" />
+
     <ImageView
         android:id="@+id/viewImage"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginTop="50dp"
-        />
+        android:layout_height="150dp"
+        android:layout_below="@+id/select" />
 
-    <TextView
+    <EditText
         android:id="@+id/textt"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/result"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/textt"
+        android:hint="@string/type_answer_if_you_know"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/ikr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/answer"
+        android:text="@string/i_know_the_answer_let_me_help"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/search"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/result_will_be_displayed_here"
-        android:layout_marginTop="280dp"
-         />
+        android:layout_below="@+id/ikr"
+        android:layout_marginStart="20dp"
+        android:text="@string/search_this_question"
+        android:visibility="invisible" />
+
+
+    <Button
+        android:id="@+id/google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ikr"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_toEndOf="@+id/search"
+        android:text="@string/google_this"
+        android:visibility="invisible" />
 
     <Button
         android:id="@+id/result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/result"
+        android:layout_below="@+id/viewImage"
         android:layout_centerHorizontal="true"
-        />
+        android:backgroundTint="#FFFFFF"
+        android:text="@string/result"
+        android:visibility="invisible" />
+
 
 </RelativeLayout>

@@ -1,6 +1,19 @@
 <resources>
-    <string name="app_name">OCR</string>
+    <string name="app_name">Cheat Quiz</string>
     <string name="result_will_be_displayed_here">Result will be displayed Here</string>
-    <string name="result">Result</string>
-    <string name="select_image">Select Image</string>
+    <string name="result">Extract Text From Image</string>
+    <string name="select_image">Take Image</string>
+    <string name="crop_image">Crop Image</string>
+    <string name="type_answer_if_you_know">Type answer if you know</string>
+    <string name="i_know_the_answer_let_me_help">I Know the Answer let me help!</string>
+    <string name="search_this_question">Search this question</string>
+    <string name="enter">ENTER</string>
+    <string name="enter_room_id">Enter ROOM ID</string>
+    <string name="report_bugs_feedback_suggestions">Report Bugs | Feedback | Suggestions</string>
+    <string name="google_this">Google this!</string>
+    <string name="click_here_to_see_result">Click Here To see result</string>
+    <string name="show_all_answers">Show All answers in this room</string>
+    <string name="or">OR</string>
+    <string name="single_question">Enter Question to Search in Room</string>
+    <string name="search_this">Search This Question</string>
 </resources>
